@@ -1,0 +1,32 @@
+.nav, .nav *{
+    display: flex;
+    background-color: #333333;
+    font-family:'google roboto';
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-title{
+    margin-top: 15px;
+    justify-content: start;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+.btn{
+    height: 3.5em;
+    width: 9em;
+    border: 4px solid black;
+    box-shadow: 5px 5px black;
+    background-color: #169db3;
+
+}
+
+@font-face {
+    font-family: 'google roboto';
+    src: url(/font/Roboto-Light.ttf);
+}
